@@ -1,0 +1,40 @@
+.header {
+  padding: 80px;
+  text-align: center;
+  color: #f1f1f1;
+  /* background-image: url(../../assets/nature.jpg);
+  background-position: center center;
+  background-repeat: no-repeat; */
+  background-color: #29bd828e;
+
+  background-size: cover;
+  height: 85vh;
+  width:84.4rem;
+  display: flex; 
+  /* border-bottom: 0.5em #425e2bd5 solid; */
+ 
+}
+
+.header h1 {
+  font-size: 32px;
+  margin-top: 3em;
+  text-shadow: #202e15b0 0.1em 0.1em 0.2em;
+  padding: 1em 0;
+
+
+}
+a{
+  font-size: 20px;
+  text-decoration: none;
+  color: #425e2b ;
+  transition: 0.3s;
+}
+a:hover{
+  color: white;
+}
+.header img {
+  margin-top: 10px;
+  margin-right: 2em;
+  width: 40vw;
+  height: 60vh;
+}

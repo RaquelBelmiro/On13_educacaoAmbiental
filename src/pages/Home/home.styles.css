@@ -1,0 +1,108 @@
+*{
+  margin: 0;
+  padding:0;
+  font-family: 'Times New Roman', Times, sans-serif;
+}
+/* main{
+  background-color: #29bd81;
+} */
+
+body{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #29bd81;
+
+}
+
+main{
+  justify-content: center;
+  text-align: center;
+  height: 120vh;
+  padding-top: 10em;
+} 
+
+.principal{
+   /* height: 140vh;  */
+
+  width: 1100px;
+  padding: 30px;
+  position: relative;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.principal .card{
+  max-width: 300px;
+  height: 220px;
+  position: relative;
+  margin: 30px 10px;
+  padding: 20px 15px; 
+  border-radius: 10px;
+  flex-direction: column;
+  transition: 0.5s ease-in-out;
+}
+.card{
+  width: 70vh;
+  position: relative; 
+  margin: 5px 5px;
+  padding: 10px 15px;
+  background:  #29bd81;
+  border-radius: 10px ;
+  flex-direction: column;
+  transition: 0.3s ease-in-out;
+  
+}
+
+.principal .card:hover{
+  height:500px;
+
+}
+
+ 
+.principal .card .imagem{
+  position: relative;
+  width: 250px;
+  height: 250px;
+  top: -60px;
+  left: 15px;
+  z-index: 1;
+}
+
+.principal .card .imagem img{
+  max-width: 100%;
+  border-radius: 10px ;
+  box-shadow:  0 0 0.5em  #202e15b0;
+}
+
+.principal .card .texto{
+  position: relative;
+  margin-top:-60px;
+  text-align: justify;
+  font-size: 15px;
+  padding: 10px;
+  color: rgba(12, 44, 12, 0.87);
+  visibility: hidden;
+   transition: 0.3s ease-in-out; 
+   font-weight: 400;
+
+}
+
+ 
+ .texto p, li{
+  padding-bottom: 0.4em;
+
+} 
+
+li:before{
+  content:"🌱";
+}
+.principal .card:hover .texto{
+  visibility: visible; 
+   transition-delay: 0.3s; 
+   cursor: pointer;
+}
+

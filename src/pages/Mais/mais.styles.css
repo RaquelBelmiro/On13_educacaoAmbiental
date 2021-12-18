@@ -1,0 +1,45 @@
+.principalMais{
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  color: rgba(12, 44, 12, 0.87);
+  margin: 0 auto;
+  text-align: center;
+  justify-content: center;
+  padding:5em 0;
+
+}
+
+.principalMais p{
+  width: 60%;
+  text-align: center;
+  justify-content: center;
+  margin: 0 auto;
+
+
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 60px;
+  width: 100%;
+  align-items: center;
+
+}
+
+.cardMais {
+  border-radius: 4px;
+  color: white;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.redes{
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-around;
+  align-items: center;
+}
